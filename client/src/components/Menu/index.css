@@ -1,7 +1,7 @@
 .menuH {
-    @apply flex flex-row flex-wrap pl-10 py-2 gap-x-10 gap-y-5
+    @apply flex flex-row flex-wrap px-12 py-3 justify-around gap-y-5
 }
 
 .clickable {
-    @apply cursor-pointer p-1 border-2 border-black
+    @apply cursor-pointer py-2 px-10 border-2 border-black
 }
