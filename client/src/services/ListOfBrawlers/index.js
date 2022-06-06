@@ -1,86 +1,113 @@
-let item = {}
-item.name = "Brawler"
+let brawler = {}
+brawler.name = "Brawler"
 
 export const listOfEpic = [
-    item = { 
+    brawler = { 
         name: 'epic'
     },
-    item = {
+    brawler = {
         name: 'Home'
     },
-    item = { 
+    brawler = { 
         name: 'Home'
     },
 ]
 
 export const listOfMythic = [
-    item = { 
+    brawler = { 
         name: 'mitico'
     },
-    item = {
+    brawler = {
         name: 'Home'
     },
-    item = { 
+    brawler = { 
         name: 'Home'
     },
 ]
 
 export const listOfChromatic = [
-    item = { 
-        name: 'chromatic'
+    brawler = { 
+        name: 'Ash'
     },
-    item = {
-        name: 'Home'
+    brawler = {
+        name: 'Belle'
     },
-    item = { 
-        name: 'Home'
+    brawler = { 
+        name: 'Buzz'
+    },
+    brawler = { 
+        name: 'Colette'
+    },
+    brawler = {
+        name: 'Eve'
+    },
+    brawler = { 
+        name: 'Fang'
+    },
+    brawler = { 
+        name: 'Gale'
+    },
+    brawler = {
+        name: 'Janet'
+    },
+    brawler = {
+        name: 'Lola'
+    },
+    brawler = { 
+        name: 'Lou'
+    },
+    brawler = {
+        name: 'Ruffs'
+    },
+    brawler = { 
+        name: 'Surge'
     },
 ]
 
 export const listOfTrophies = [
-    item = { 
+    brawler = { 
         name: 'epico'
     },
-    item = {
+    brawler = {
         name: 'Home'
     },
-    item = { 
+    brawler = { 
         name: 'Home'
     },
 ]
 
 export const listOfLegendary = [
-    item = { 
+    brawler = { 
         name: 'legendary'
     },
-    item = {
+    brawler = {
         name: 'Home'
     },
-    item = { 
+    brawler = { 
         name: 'Home'
     },
 ]
 
 export const listOfSuperRare = [
-    item = { 
+    brawler = { 
         name: 'epico'
     },
-    item = {
+    brawler = {
         name: 'Home'
     },
-    item = { 
+    brawler = { 
         name: 'Home'
     },
 ]
 
 export const listOfRare = [
-    item = { 
+    brawler = { 
         name: 'epico'
     },
-    item = {
+    brawler = {
         name: 'Home'
     },
-    item = { 
+    brawler = { 
         name: 'Home'
     },
 ]

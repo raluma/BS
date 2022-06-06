@@ -4,32 +4,33 @@ item.name = "rarity"
 export const listOfCategories = [
     item = {
         id: 1,    
-        name: 'chromatic',
-        css: 'text-red-500'
+        name: 'Chromatic',
+        css: 'bg-gradient-to-l from-orange-400 to-orange-600 '+
+        'rounded-md',
     },
     item = {
         id: 2,    
-        name: 'legendary',
-        css: 'text-blue-500'
+        name: 'Legendary',
+        css: 'bg-yellow-400 rounded-md'
     },
     item = {
         id: 3,    
-        name: 'epic',
-        css: 'text-yellow-500'
+        name: 'Epic',
+        css: 'bg-[#8e44ad] rounded-md'
     },
     item = {
         id: 4,    
-        name: 'superRare',
-        css: 'text-yellow-500'
+        name: 'SuperRare',
+        css: 'bg-blue-600 rounded-md'
     },
     item = {
         id: 5,    
-        name: 'rare',
-        css: 'text-yellow-500'
+        name: 'Rare',
+        css: 'bg-[#2ecc71] rounded-md'
     },
     item = {
         id: 6,    
-        name: 'trophies',
-        css: 'text-yellow-500'
+        name: 'Trophies',
+        css: 'bg-[#aed6f1] rounded-md'
     }
 ]
