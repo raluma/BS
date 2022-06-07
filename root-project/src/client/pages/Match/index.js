@@ -5,16 +5,16 @@ import { listOfCategories } from "../../../server/services/ArrayList";
 import * as rarity from "../../../server/services/ListOfBrawlers";
 
 export default function Match() {
-  const [list, setList] = useState(rarity.listOfEpic);
+  const [list, setList] = useState({rarity: "Epic", array: rarity.listOfEpic});
 
   const changeList = (name) => {
-    if (name === "Chromatic") setList(rarity.listOfChromatic);
-    else if (name === "Mythic") setList(rarity.listOfMythic);
-    else if (name === "Legendary") setList(rarity.listOfLegendary);
-    else if (name === "Epic") setList(rarity.listOfEpic);
-    else if (name === "SuperRare") setList(rarity.listOfSuperRare);
-    else if (name === "Rare") setList(rarity.listOfRare);
-    else setList(rarity.listOfTrophies);
+    if (name === "Chromatic") setList({rarity: name, array: rarity.listOfChromatic});
+    else if (name === "Mythic") setList({rarity: name, array: rarity.listOfMythic});
+    else if (name === "Legendary") setList({rarity: name, array: rarity.listOfLegendary});
+    else if (name === "Epic") setList({rarity: name, array: rarity.listOfEpic});
+    else if (name === "SuperRare") setList({rarity: name, array: rarity.listOfSuperRare});
+    else if (name === "Rare") setList({rarity: name, array: rarity.listOfRare});
+    else setList({rarity: name, array: rarity.listOfTrophies});
   };
 
   return (
@@ -26,13 +26,13 @@ export default function Match() {
         articleClick={(param) => changeList(param)}
       />
 
-      <section>
+      <section key="score">
         <p className="scoreboard">scoreboard</p>
       </section>
 
-      <section className="body">
-        {list.map((item, index) => (
-          <Card index={index} name={item.name} image={item.image} />
+      <section key='body' className="body">
+        {list.array.map((item, index) => (
+          <Card index={index} name={item.name} rarity={list.rarity} />
         ))}
       </section>
     </div>
