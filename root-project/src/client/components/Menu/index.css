@@ -1,7 +1,44 @@
 .menuH {
-    @apply flex flex-row flex-wrap px-12 py-3 justify-around gap-y-5
+    @apply flex flex-row flex-wrap 
+    px-12 py-3 justify-around gap-y-5
+}
+
+.menuV {
+    @apply flex flex-col flex-wrap 
+    py-3 justify-around gap-y-5
 }
 
 .clickable {
-    @apply cursor-pointer py-2 px-10 border-2 border-black
+    @apply cursor-pointer 
+    py-1 border-2 border-black pl-2
+}
+
+.Chromatic {
+    @apply clickable 
+    bg-gradient-to-l from-orange-400 to-orange-600
+    rounded-md
+}
+
+.Mythic {
+    @apply clickable bg-red-600 rounded-md
+}
+
+.Legendary {
+    @apply clickable bg-yellow-400 rounded-md
+}
+
+.Epic {
+    @apply clickable bg-[#8e44ad] rounded-md
+}
+
+.SuperRare {
+    @apply clickable bg-blue-600 rounded-md
+}
+
+.Rare {
+    @apply clickable bg-[#2ecc71] rounded-md
+}
+
+.Trophies {
+    @apply clickable bg-[#aed6f1] rounded-md
 }
